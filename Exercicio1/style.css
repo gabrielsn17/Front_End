@@ -1,0 +1,212 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    grid-area: h;
+   
+}
+main{
+    background-color:white;
+    grid-area: m;       
+}
+aside{
+    background-color:white;
+    grid-area: a;  
+}
+footer{
+    background-color:white;
+    grid-area: f;       
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 50vh 30vh;
+    grid-template-areas: "h h"
+                             "m a"
+                            "f a";    
+} 
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#id1{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(62, 159, 243);
+    margin: 5px;
+}
+#id2{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+}
+#id3{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+}
+#id4{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+}
+#id5{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+}
+#id6{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+}
+.mainn{
+    background-color: rgb(192, 188, 188);
+    margin: 10px;
+    margin-left: 200px;
+}
+.asidee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+#id11{
+    background-color: white;
+    height: 130px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#id111{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 100px;
+}
+#id1111{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 5;
+}
+#id12{
+    background-color: white;
+    height: 130px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#id222{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 100px;
+}
+#id2222{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 5;
+}
+#id13{
+    background-color: white;
+    height: 130px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#id333{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 100px;
+}
+#id3333{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 5;
+}
+#id14{
+    background-color: white;
+    height: 130px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#id444{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 100px;
+}
+#id4444{
+    background-color: rgb(192, 188, 188);
+    margin: 5px;
+    height: 5;
+}
+.ft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#d1{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(62, 159, 243);
+    margin: 5px;
+}
+#d2{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(62, 159, 243);
+    margin: 5px;
+}
+#d3{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(62, 159, 243);
+    margin: 5px;
+}
+#d4{
+    margin: 15px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(62, 159, 243);
+    margin: 5px;
+}
+#teste1{
+    background-color: white;
+    
+    width: 200px;
+    
+    display: flex;
+    flex-direction: column;   
+}

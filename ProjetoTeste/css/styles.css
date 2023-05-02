@@ -1,0 +1,141 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; 
+    background-image: url(../imagens/space-stars-wallpaper-2560x1080_14.jpg);
+    min-height: 350px;
+}
+/* .star{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -25px 20px black inset, 5px 5px 30px rgb(81, 139, 226) inset, 0px 0px 20px rgb(3, 130, 233), 0px 0px 10px rgb(234, 242, 243); */
+
+
+#sol{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 0.2%;
+    background-image: url(../imagens/solzao.png);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 20px 20px 30px rgb(243, 160, 5) inset, -20px -20px 30px rgb(243, 160, 5)inset, 0px 0px 170px rgb(241, 11, 3), 0px 0px 40px rgb(255, 104, 4);
+    animation: rotateSol 810s linear infinite;
+    transform: rotate(-23deg); 
+}
+@keyframes rotateSol{
+    to{background-position: -400%;}
+}
+.planets{
+    position: absolute;
+    left: 115%;
+    width: 150px;
+    height: 150px;   
+    border-radius: 50%;
+    background-image: url(https://t3.ftcdn.net/jpg/01/96/89/34/360_F_196893434_tE0PIrFSWibtYTYbRSTqYvyvZ893O6L7.webp);
+    background-size: cover;
+    transform: rotate(-23deg);
+    box-shadow: -20px -25px 20px black inset, 5px 5px 30px rgb(81, 139, 226) inset, 0px 0px 20px rgb(3, 130, 233), 0px 0px 10px rgb(234, 242, 243);
+    animation: rotateTerra 30s linear infinite;
+}
+
+@keyframes rotateTerra{
+    to{background-position: -400%;}
+}
+#mercurio{
+    left: 60%;
+    width: 90px;
+    height: 90px;
+    background-image: url(../imagens/mercurio.png);
+    transform: rotate(-0.1deg);
+    box-shadow: -20px -20px 20px black inset, 5px 5px 20px rgb(193, 229, 240) inset, 0px 0px 30px rgb(113, 197, 253), 0px 0px 10px rgb(241, 245, 248);
+    animation: rotateMercurio 73.75s linear infinite;
+}
+@keyframes rotateMercurio{
+    to{background-position: -193%;}
+}
+#venus{
+    left: 80%;
+    width: 140px;
+    height: 140px;
+    background-image: url(../imagens/venus.png);
+    transform: rotate(-177deg);
+    box-shadow: 20px 20px 20px black inset, 5px 5px 30px rgb(253, 253, 231) inset, 0px 0px 10px rgb(237, 240, 92), 0px 0px 10px rgb(245, 247, 179);
+    animation: rotateVenus 18225s linear infinite;
+}
+@keyframes rotateVenus{
+    to{background-position: -200%;}
+}
+#marte{
+    left: 145%;
+    width: 120px;
+    height: 120px;
+    background-image: url(../imagens/marte.png);
+    transform: rotate(-25deg);
+    box-shadow: -25px -25px 20px black inset, 5px 5px 30px rgb(245, 232, 222) inset, 0px 0px 30px rgb(240, 91, 32), 0px 0px 10px rgb(238, 194, 165);
+    animation: rotateMarte 31.17s linear infinite;
+}
+@keyframes rotateMarte{
+    to{background-position: -158%;}
+}
+#jupiter{
+    left: 175%;
+    width: 330px;
+    height: 330px;
+    background-image: url(../imagens/jupiter.png);
+    transform: rotate(-3deg);
+    box-shadow: -25px -25px 20px black inset, 5px 5px 30px rgb(250, 243, 231) inset, 0px 0px 20px rgb(247, 150, 40), 0px 0px 10px rgb(250, 239, 174);
+    animation: rotateJupter 12.41s linear infinite;
+}
+@keyframes rotateJupter{
+    to{background-position: -179%;}
+}
+#saturno{
+    left: 220%;
+    width: 250px;
+    height: 250px;
+    background-image: url(../imagens/saturno.jpg);
+    transform: rotate(-27deg);
+    box-shadow: -25px -25px 20px black inset, 5px 5px 30px rgb(245, 232, 213) inset, 0px 0px 20px rgb(248, 219, 89), 0px 0px 10px rgb(235, 255, 147);
+    animation: rotateSaturno 13.20s linear infinite;
+}
+@keyframes rotateSaturno{
+    to{background-position: -179%;}
+}
+#urano{
+    left: 260%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../imagens/urano.png);
+    transform: rotate(98deg);
+    box-shadow: -2px 30px 20px black inset, 5px 5px 30px rgb(245, 248, 247) inset, 0px 0px 20px rgb(113, 240, 245), 0px 0px 10px rgb(232, 241, 241);
+    animation: rotateUrano 21.25s linear infinite;
+}
+@keyframes rotateUrano{
+    to{background-position: -200%;}
+}
+#netuno{
+    left: 290%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../imagens/netuno.png);
+    transform: rotate(-30deg);
+    box-shadow: -20px -20px 20px black inset, 5px 5px 30px rgb(162, 161, 250) inset, 0px 0px 20px rgb(55, 73, 238), 0px 0px 10px rgb(162, 164, 247);
+    animation: rotateNetuno 20s linear infinite;
+}
+@keyframes rotateNetuno{
+    to{background-position: -200%;}
+}
+
+.anel{
+    width: 1000px;
+    height: 1000px;
+    border: 10px blue;
+    border-radius: 500%;
+}

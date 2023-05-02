@@ -1,0 +1,25 @@
+h1{
+    border: 3px solid brown;
+    background-color: coral;
+    padding: 5px;
+    /* margin: 13px ; */
+    text-align: center;
+    margin: 0;
+}
+
+.div-1{
+    background-color: black;
+    height: 150px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 15px solid white;
+}
+
+.display-block{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}

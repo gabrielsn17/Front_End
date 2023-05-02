@@ -1,0 +1,39 @@
+h1{
+    color: blueviolet;
+    
+}
+
+/* SM */
+@media(min-width: 567px){
+    h1{
+        color: rgb(0, 255, 157);
+    }
+}
+    
+/* MD */
+@media(min-width: 768px){
+    h1{
+        color: rgb(12, 63, 228);
+    }
+}
+
+/* LG */
+@media(min-width: 992px){
+    h1{
+        color: rgb(35, 146, 250);
+    }
+}
+
+.container{
+    background-color: chartreuse;
+    color: slateblue;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.container-fluid{
+    background-color: chartreuse;
+    color: slateblue;
+    padding: 15px;
+    margin-bottom: 40px;
+}
