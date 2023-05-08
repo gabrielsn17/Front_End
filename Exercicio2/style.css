@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: #880015;
+    height: 70px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 24px;
+    
+}
+
+.link-topo{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 20px;
+
+}
+.link-topo::after{
+    content: ' | ';
+    padding-left: 17px;
+}
+
+.main{
+    background: black;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+.quadrado{
+    height: 328px;
+    width: 230px;
+    border: 3px solid white;
+    margin: 15px;
+    background-size: cover;
+}
+#t1{
+    height: 328px;
+    width: 230px;
+}
+#t2{
+    height: 328px;
+    width: 230px;
+}
+#t3{
+    height: 328px;
+    width: 230px;
+}
+#t4{
+    height: 328px;
+    width: 230px;
+}
+#t5{
+    height: 328px;
+    width: 230px;
+}
+#t6{
+    height: 328px;
+    width: 230px;
+}
